@@ -1,0 +1,599 @@
+{
+  "destinations": [
+    {
+      "id": "hyderabad",
+      "name": "Hyderabad",
+      "region": "Telangana, South-Central India",
+      "category": "Heritage & Culinary",
+      "tagline": "The City of Pearls, Nizami Splendor and Legendary Biryani",
+      "best_season": "October to March (Cool, pleasant evenings)",
+      "hero_image": "https://images.unsplash.com/photo-1605007493699-ce65834f87f7?auto=format&fit=crop&w=1200&q=80",
+      "min_budget_per_day": 1800,
+      "avg_budget_3day": 8500,
+      "avg_budget_4day": 11000,
+      "tags": ["history", "heritage", "food", "biryani", "pearls", "lakes", "culture"],
+      "transport": {
+        "flight": "Rajiv Gandhi International Airport (HYD)",
+        "train": "Secunderabad / Hyderabad Deccan (Nampally) / Kacheguda",
+        "local": "Hyderabad Metro, TSRTC buses, autos and cabs"
+      },
+      "foods": ["Hyderabadi Dum Biryani (Paradise/Bawarchi/Shadab)", "Irani Chai with Osmania Biscuits at Nimrah Cafe", "Haleem", "Double Ka Meetha", "Mirchi Ka Salan"],
+      "famous_foods_details": [
+        {
+          "name": "Hyderabadi Dum Biryani",
+          "description": "Fragrant basmati rice layered with spiced marinated meat, saffron, and slow-cooked in sealed handi.",
+          "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=600&q=80",
+          "famous_spot": "Hotel Shadab (Old City) / Cafe Bahar / Bawarchi"
+        },
+        {
+          "name": "Irani Chai & Osmania Biscuits",
+          "description": "Creamy, slow-brewed spiced tea served with warm, melt-in-mouth salty-sweet Osmania biscuits.",
+          "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=600&q=80",
+          "famous_spot": "Nimrah Cafe beside Charminar"
+        },
+        {
+          "name": "Hyderabadi Haleem",
+          "description": "Rich stew of lentils, meat, broken wheat and aromatic spices pounded into velvety texture.",
+          "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=600&q=80",
+          "famous_spot": "Pista House / 555 Cafe"
+        },
+        {
+          "name": "Double Ka Meetha",
+          "description": "Crisp fried bread slices soaked in saffron rabri, cardamom syrup and topped with pistachios.",
+          "image": "https://images.unsplash.com/photo-1587314168485-3236d6710814?auto=format&fit=crop&w=600&q=80",
+          "famous_spot": "Jewel of Nizam / Shadab"
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Charminar & Mecca Masjid",
+          "type": "Iconic Heritage & Landmark",
+          "description": "16th-century grand monument with four majestic minarets rising over the historic Old City.",
+          "image": "https://images.unsplash.com/photo-1605007493699-ce65834f87f7?auto=format&fit=crop&w=600&q=80",
+          "best_time": "Early Morning or Lit Up at Evening"
+        },
+        {
+          "name": "Golconda Fort",
+          "type": "Medieval Fortress & Acoustics",
+          "description": "Impregnable hilltop fortress celebrated for its acoustic engineering, diamond vaults, and sunset panoramas.",
+          "image": "https://images.unsplash.com/photo-1628155930542-3c7a64e2c833?auto=format&fit=crop&w=600&q=80",
+          "best_time": "Late Afternoon to Sound & Light Show"
+        },
+        {
+          "name": "Hussain Sagar Lake & Buddha Statue",
+          "type": "Boating & Sunset Waterfront",
+          "description": "Heart-shaped lake featuring the world's tallest monolithic Buddha statue reached by speedboats.",
+          "image": "https://images.unsplash.com/photo-1588668214407-6ea9a6d8c272?auto=format&fit=crop&w=600&q=80",
+          "best_time": "Sunset / Evening Promenade"
+        },
+        {
+          "name": "Salar Jung Museum",
+          "type": "World Art & Rare Antiques",
+          "description": "One of the three National Museums of India housing the musical clock and marble Veiled Rebecca.",
+          "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=600&q=80",
+          "best_time": "Morning (10:00 AM to 1:00 PM)"
+        },
+        {
+          "name": "Qutb Shahi Tombs",
+          "type": "Indo-Islamic Royal Architecture",
+          "description": "Domed mausoleums set in landscaped heritage gardens built by the rulers of the Qutb Shahi dynasty.",
+          "image": "https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?auto=format&fit=crop&w=600&q=80",
+          "best_time": "Morning (Pleasant light)"
+        },
+        {
+          "name": "Laad Bazaar",
+          "type": "Pearl & Lacquer Bangle Market",
+          "description": "Centuries-old market bustling with shimmering bangles, Hyderabadi natural pearls, and wedding trousseau.",
+          "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=600&q=80",
+          "best_time": "Late Evening"
+        }
+      ],
+      "places_around": [
+        {"name": "Ramoji Film City", "distance": "35 km", "desc": "World's largest integrated film studio theme park"},
+        {"name": "Ananthagiri Hills & Vikarabad", "distance": "75 km", "desc": "Serene forest trails, coffee woods and trekking cliffs"},
+        {"name": "Nagarjuna Sagar Dam", "distance": "150 km", "desc": "Massive masonry dam with ancient Buddhist island museum"}
+      ],
+      "itinerary_templates": {
+        "day_1": {
+          "title": "Old City Nizami Heritage & Charminar",
+          "morning": "Climb upper galleries of Charminar; visit Mecca Masjid and explore Chowmahalla Palace.",
+          "afternoon": "Dum Biryani lunch at Hotel Shadab; shop for pearls and bangles at bustling Laad Bazaar.",
+          "evening": "Irani chai with Osmania biscuits beside Charminar as illuminated night lamps turn on.",
+          "budget_est": 2200
+        },
+        "day_2": {
+          "title": "Mighty Fortresses & Royal Tombs",
+          "morning": "Visit majestic Qutb Shahi Tombs in serene heritage gardens.",
+          "afternoon": "Scale the ramparts of Golconda Fort; test the acoustics of the clapping portico.",
+          "evening": "Dramatic Golconda Sound & Light Show narration; traditional dinner in Banjara Hills.",
+          "budget_est": 2500
+        },
+        "day_3": {
+          "title": "World-Class Museum & Lake Promenade",
+          "morning": "Admire the musical clock and Veiled Rebecca at Salar Jung Museum.",
+          "afternoon": "Biryani lunch at Paradise; visit Birla Mandir carved entirely from white Rajasthani marble.",
+          "evening": "Sunset boat ride on Hussain Sagar Lake to Buddha Statue; evening breeze along Necklace Road.",
+          "budget_est": 2300
+        }
+      }
+    },
+    {
+      "id": "goa",
+      "name": "Goa",
+      "region": "Western Coastal India",
+      "category": "Beach & Adventure",
+      "tagline": "Golden Beaches, Water Sports, Portuguese Heritage and Vibrant Sunsets",
+      "best_season": "November to February (Sunny, breezy, festive)",
+      "hero_image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1200&q=80",
+      "min_budget_per_day": 2500,
+      "avg_budget_3day": 12000,
+      "avg_budget_4day": 16000,
+      "tags": ["beach", "adventure", "water sports", "nightlife", "seafood", "relaxation", "heritage"],
+      "transport": {
+        "flight": "Dabolim Airport (GOI) or Mopa Airport (GOX)",
+        "train": "Madgaon (MAO) / Thivim (THVM)",
+        "local": "Self-drive scooters, tourist cabs, open jeeps and ferries"
+      },
+      "foods": ["Goan Fish Curry Thali", "Prawn Balchão", "Bebinca Dessert", "Chicken/Pork Vindaloo", "Poi bread & Feni cocktails"],
+      "famous_foods_details": [
+        {
+          "name": "Goan Fish Curry Thali",
+          "description": "Steaming rice served with coconut-kokum Kingfish curry, fried rava fish, kismoor, and sol kadhi.",
+          "image": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=600&q=80",
+          "famous_spot": "Vinayak Family Restaurant (Assagao) / Fisherman's Wharf"
+        },
+        {
+          "name": "Prawn Balchão",
+          "description": "Spicy, tangy Goan-Portuguese shrimp pickle relish cooked in vinegar, red chilies, and toddy.",
+          "image": "https://images.unsplash.com/photo-1559742811-822873691df8?auto=format&fit=crop&w=600&q=80",
+          "famous_spot": "Martin's Corner (Betalbatim)"
+        },
+        {
+          "name": "Traditional Bebinca",
+          "description": "Multi-layered Indo-Portuguese pudding baked with coconut milk, egg yolks, sugar, and nutmeg.",
+          "image": "https://images.unsplash.com/photo-1587314168485-3236d6710814?auto=format&fit=crop&w=600&q=80",
+          "famous_spot": "Simonia Stores / Candies Bakery"
+        },
+        {
+          "name": "Goan Poi & Chorizo Pao",
+          "description": "Crusty wheat pocket bread stuffed with smoked, spiced Goan pork sausages.",
+          "image": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?auto=format&fit=crop&w=600&q=80",
+          "famous_spot": "George Bar / Local street bakeries"
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Baga & Calangute Beach",
+          "type": "Water Sports & Beach Shacks",
+          "description": "Vibrant coastline famous for parasailing, jet-skiing, dolphin boat trips, and beach clubs.",
+          "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=600&q=80",
+          "best_time": "Morning to Sunset"
+        },
+        {
+          "name": "Aguada Fort & Lighthouse",
+          "type": "17th-Century Coastal Bastion",
+          "description": "Portuguese fortress overlooking the confluence of the Mandovi River and Arabian Sea.",
+          "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=600&q=80",
+          "best_time": "Golden Hour (5:00 PM)"
+        },
+        {
+          "name": "Dudhsagar Waterfalls",
+          "type": "Four-Tiered Jungle Cascade",
+          "description": "Spectacular 310m high waterfall resembling a 'sea of milk' amidst dense Western Ghats jungle.",
+          "image": "https://images.unsplash.com/photo-1546776310-eef45dd6d63c?auto=format&fit=crop&w=600&q=80",
+          "best_time": "Morning Jeep Safari"
+        },
+        {
+          "name": "Basilica of Bom Jesus",
+          "type": "UNESCO World Heritage Baroque Church",
+          "description": "Historic Old Goa basilica enshrining the sacred mortal remains of St. Francis Xavier.",
+          "image": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=600&q=80",
+          "best_time": "Morning (Quiet & Reverent)"
+        },
+        {
+          "name": "Fontainhas Latin Quarter",
+          "type": "Colonial Heritage Walk",
+          "description": "Brightly colored Portuguese villas, vintage tiled nameplates, and European cafes in Panaji.",
+          "image": "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?auto=format&fit=crop&w=600&q=80",
+          "best_time": "Morning Photo Walk"
+        },
+        {
+          "name": "Palolem & Agonda Beach",
+          "type": "Scenic South Goa Sands",
+          "description": "Crescent-shaped peaceful beach lined with leaning coconut palms and quiet wooden cottages.",
+          "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80",
+          "best_time": "Sunset & Kayaking"
+        }
+      ],
+      "places_around": [
+        {"name": "Gokarna (Karnataka)", "distance": "135 km", "desc": "Untouched temple town with pristine Om and Kudle beaches"},
+        {"name": "Netravali Wildlife Sanctuary", "distance": "65 km", "desc": "Hidden forest springs, butterfly parks and jungle trekking"},
+        {"name": "Chorla Ghat", "distance": "55 km", "desc": "Misty mountain pass along the Goa-Karnataka border"}
+      ],
+      "itinerary_templates": {
+        "day_1": {
+          "title": "North Goa Beaches & Coastal Fort",
+          "morning": "Arrive and check in; morning scenic walk along Candolim and Calangute beach.",
+          "afternoon": "Water sports at Baga Beach (parasailing, jet-ski, banana ride) and seafood lunch.",
+          "evening": "Climb Fort Aguada for golden hour sea views; dinner at a lively beachfront shack with live music.",
+          "budget_est": 3500
+        },
+        "day_2": {
+          "title": "Colonial Heritage & Latin Quarter Walk",
+          "morning": "Tour Old Goa's Basilica of Bom Jesus and Sé Cathedral.",
+          "afternoon": "Stroll through the pastel-hued streets of Fontainhas Latin Quarter in Panaji; traditional Goan lunch.",
+          "evening": "Sunset Mandovi River Cruise with folk dance performances; vibrant casino or beach cafe night.",
+          "budget_est": 3800
+        },
+        "day_3": {
+          "title": "Scuba Diving & Bohemian Cliffs",
+          "morning": "Adventure excursion: Scuba diving or snorkeling near Grand Island with dolphin spotting.",
+          "afternoon": "Chillout at Vagator Beach; hike up to Chapora Fort (Dil Chahta Hai viewpoint).",
+          "evening": "Sunset at Curlies / Anjuna beach shack with bonfire, reggae music, and cocktails.",
+          "budget_est": 4500
+        }
+      }
+    },
+    {
+      "id": "bengaluru",
+      "name": "Bengaluru",
+      "region": "Karnataka, South India",
+      "category": "Metropolitan & Gardens",
+      "tagline": "The Garden City, Silicon Valley, and Craft Beer Capital of India",
+      "best_season": "October to March (Pleasant year-round weather)",
+      "hero_image": "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?auto=format&fit=crop&w=1200&q=80",
+      "min_budget_per_day": 2000,
+      "avg_budget_3day": 9000,
+      "avg_budget_4day": 12000,
+      "tags": ["gardens", "technology", "breweries", "culture", "shopping", "food"],
+      "transport": {
+        "flight": "Kempegowda International Airport (BLR)",
+        "train": "KSR Bengaluru / Yesvantpur Junction",
+        "local": "Namma Metro, BMTC Vayu Vajra buses, auto-rickshaws and cabs"
+      },
+      "foods": ["Benne Masala Dosa at Vidyarthi Bhavan", "Filter Coffee", "Mangalore Buns", "Craft Beers at Indiranagar", "Mysore Pak"],
+      "famous_foods_details": [
+        {
+          "name": "Crispy Benne Masala Dosa",
+          "description": "Golden-brown butter dosa stuffed with spiced potato mash, served with coconut chutney and sambar.",
+          "image": "https://images.unsplash.com/photo-1668236543090-82eba5ee5976?auto=format&fit=crop&w=600&q=80",
+          "famous_spot": "Vidyarthi Bhavan (Gandhi Bazaar) / CTR / MTR"
+        },
+        {
+          "name": "South Indian Filter Coffee",
+          "description": "Frothy, strong chicory-infused coffee brewed in brass filters and served in traditional dabarah.",
+          "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80",
+          "famous_spot": "Brahmin's Coffee Bar / Hatti Kaapi"
+        },
+        {
+          "name": "Bangalore Craft Beers",
+          "description": "Freshly brewed craft IPAs, wheat ales, and mango ciders in expansive open-air microbreweries.",
+          "image": "https://images.unsplash.com/photo-1608270199419-f9c464bf2542?auto=format&fit=crop&w=600&q=80",
+          "famous_spot": "Toit (Indiranagar) / Windmills Craftworks / Byg Brewski"
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Bangalore Palace",
+          "type": "Tudor Royal Architecture",
+          "description": "19th-century royal palace modelled after Windsor Castle with fortified towers and woodcarvings.",
+          "image": "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?auto=format&fit=crop&w=600&q=80",
+          "best_time": "Morning (10:00 AM)"
+        },
+        {
+          "name": "Lalbagh Botanical Garden",
+          "type": "Exotic Flora & Glass House",
+          "description": "240-acre botanical haven founded by Hyder Ali, featuring centuries-old trees and a famous Glass House.",
+          "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=600&q=80",
+          "best_time": "Early Morning Walk"
+        },
+        {
+          "name": "Cubbon Park & Vidhana Soudha",
+          "type": "Green Heart & Neo-Dravidian Landmark",
+          "description": "Expansive green sanctuary in city center adjacent to the monumental Vidhana Soudha state legislature.",
+          "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=600&q=80",
+          "best_time": "Morning / Sunset"
+        },
+        {
+          "name": "Bannerghatta National Park",
+          "type": "Tiger & Lion Safari Zoo",
+          "description": "Protected reserve offering closed-vehicle wildlife safaris and a sprawling butterfly conservatory.",
+          "image": "https://images.unsplash.com/photo-1534188753412-3e26d0d618d6?auto=format&fit=crop&w=600&q=80",
+          "best_time": "Full Day Excursion"
+        }
+      ],
+      "places_around": [
+        {"name": "Nandi Hills", "distance": "60 km", "desc": "Misty hilltop fortress famous for breathtaking sunrise above clouds"},
+        {"name": "Mysore (Mysuru)", "distance": "145 km", "desc": "City of royal palaces, Chamundi Hills and sandalwood art"},
+        {"name": "Shivagange", "distance": "54 km", "desc": "Sacred mountain peak shaped like a Shiva lingam with hill treks"}
+      ],
+      "itinerary_templates": {
+        "day_1": {
+          "title": "Historical Palaces & Botanical Marvels",
+          "morning": "Morning stroll in Lalbagh Botanical Garden; explore the iconic Glass House.",
+          "afternoon": "Traditional Karnataka thali lunch; visit Tipu Sultan's Summer Palace and KR Market.",
+          "evening": "Explore Bangalore Palace with audio guide; evening coffee at Church Street bookstores.",
+          "budget_est": 2500
+        },
+        "day_2": {
+          "title": "Green Heart & Silicon Pulse",
+          "morning": "Jog or cycle through Cubbon Park, followed by breakfast at MTR or Vidyarthi Bhavan.",
+          "afternoon": "Visit Visvesvaraya Industrial & Technological Museum and Karnataka Chitrakala Parishath.",
+          "evening": "Sunset at Vidhana Soudha exterior; dinner and craft beverages in Indiranagar/Koramangala.",
+          "budget_est": 2800
+        },
+        "day_3": {
+          "title": "Spiritual Landmarks & Artisan Shopping",
+          "morning": "Darshan and serene architecture at ISKCON Temple Bangalore in Rajajinagar.",
+          "afternoon": "Explore National Gallery of Modern Art (NGMA) and cafe lunch.",
+          "evening": "Shopping at Commercial Street; try authentic street bites at VV Puram Food Street.",
+          "budget_est": 2600
+        },
+        "day_4": {
+          "title": "Wildlife Safari or Outskirts Excursion",
+          "morning": "Day trip to Bannerghatta National Park for the Lion & Tiger Safari.",
+          "afternoon": "Butterfly Park walkthrough and picnic lunch near Bannerghatta.",
+          "evening": "Return to MG Road; souvenir shopping and farewell dinner.",
+          "budget_est": 3200
+        }
+      }
+    },
+    {
+      "id": "jaipur",
+      "name": "Jaipur",
+      "region": "Rajasthan, North India",
+      "category": "Heritage & Royal Culture",
+      "tagline": "The Pink City of Fortresses, Royal Palaces, and Colorful Bazaars",
+      "best_season": "October to March (Pleasant desert winter)",
+      "hero_image": "https://images.unsplash.com/photo-1603262110263-fb010d6e59d4?auto=format&fit=crop&w=1200&q=80",
+      "min_budget_per_day": 2000,
+      "avg_budget_3day": 9500,
+      "avg_budget_4day": 13000,
+      "tags": ["history", "palaces", "forts", "culture", "shopping", "rajasthani food", "architecture"],
+      "transport": {
+        "flight": "Jaipur International Airport (JAI)",
+        "train": "Jaipur Junction (JP)",
+        "local": "Jaipur Metro, auto-rickshaws, e-rickshaws, app cabs"
+      },
+      "foods": ["Dal Baati Churma", "Pyaaz Kachori at Rawat", "Laal Maas", "Ghewar sweet", "Lassi at Lassiwala"],
+      "famous_foods_details": [
+        {
+          "name": "Dal Baati Churma",
+          "description": "Baked hard wheat rolls (baati) soaked in pure ghee, served with spicy five-lentil dal and sweet powdered churma.",
+          "image": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=600&q=80",
+          "famous_spot": "Chokhi Dhani / Laxmi Mishthan Bhandar (LMB)"
+        },
+        {
+          "name": "Pyaaz Kachori",
+          "description": "Flaky, deep-fried pastry puff generously packed with caramelized spicy onion mixture and tamarind chutney.",
+          "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=600&q=80",
+          "famous_spot": "Rawat Mishthan Bhandar"
+        },
+        {
+          "name": "Kulhad Lassi",
+          "description": "Thick, creamy yogurt lassi served chilled in earthen clay pots and crowned with rich clotted cream (malai).",
+          "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=600&q=80",
+          "famous_spot": "Lassiwala (MI Road since 1944)"
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Amer Fort & Sheesh Mahal",
+          "type": "Hilltop Fortress & Mirror Palace",
+          "description": "Magnificent red sandstone citadel featuring the legendary hall of thousands of tiny imported mirrors.",
+          "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=600&q=80",
+          "best_time": "Morning (Elephant or jeep ascent)"
+        },
+        {
+          "name": "Hawa Mahal (Palace of Winds)",
+          "type": "Honeycomb Facade Monument",
+          "description": "Iconic pink sandstone honeycomb screen with 953 ornate latticed windows designed for royal women.",
+          "image": "https://images.unsplash.com/photo-1603262110263-fb010d6e59d4?auto=format&fit=crop&w=600&q=80",
+          "best_time": "Early Morning Sunshine"
+        },
+        {
+          "name": "City Palace & Jantar Mantar",
+          "type": "Royal Residence & Astronomical Observatory",
+          "description": "Grand courtyards, armory museum, and UNESCO stone astronomical instruments with world's largest sundial.",
+          "image": "https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?auto=format&fit=crop&w=600&q=80",
+          "best_time": "Morning to Afternoon"
+        },
+        {
+          "name": "Nahargarh Fort Sunset Viewpoint",
+          "type": "Hilltop Sunset Panorama",
+          "description": "Edge of the Aravalli hills overlooking the illuminated sprawl of Jaipur from Padao open-air cafe.",
+          "image": "https://images.unsplash.com/photo-1585136917228-44fa31d743a1?auto=format&fit=crop&w=600&q=80",
+          "best_time": "Golden Hour / Sunset"
+        }
+      ],
+      "places_around": [
+        {"name": "Pushkar", "distance": "145 km", "desc": "Sacred holy lake, only Brahma temple and desert camel fair"},
+        {"name": "Abhaneri (Chand Baori)", "distance": "95 km", "desc": "Incredible 8th-century stepwell with 3,500 symmetrical geometric steps"},
+        {"name": "Ranthambore National Park", "distance": "160 km", "desc": "Premier Royal Bengal tiger reserve around ancient fortress ruins"}
+      ],
+      "itinerary_templates": {
+        "day_1": {
+          "title": "Grand Forts & Hilltop Sunsets",
+          "morning": "Morning excursion to Amer Fort; marvel at mirror mosaics in Sheesh Mahal.",
+          "afternoon": "Visit Jaigarh Fort (world's largest cannon on wheels); authentic Rajasthani lunch.",
+          "evening": "Watch the sunset overlooking the Pink City from Nahargarh Fort's Padao Cafe.",
+          "budget_est": 2600
+        },
+        "day_2": {
+          "title": "City Center Palaces & Old Town Bazaars",
+          "morning": "Photo stop at Hawa Mahal; tour City Palace royal courtyards and Chandra Mahal.",
+          "afternoon": "Explore stone astrological instruments at Jantar Mantar; stop at Lassiwala for curd lassi.",
+          "evening": "Shop for block-print textiles, blue pottery, and jootis in Bapu Bazaar and Johari Bazaar.",
+          "budget_est": 2400
+        }
+      }
+    },
+    {
+      "id": "manali",
+      "name": "Manali",
+      "region": "Himachal Pradesh, North India",
+      "category": "Hill Station & Adventure",
+      "tagline": "Snow-Capped Peaks, Pine Woods, River Beas and Mountain Thrills",
+      "best_season": "March to June (Summer greenery) or Dec to Feb (Snowfall)",
+      "hero_image": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1200&q=80",
+      "min_budget_per_day": 2200,
+      "avg_budget_3day": 10000,
+      "avg_budget_4day": 14000,
+      "tags": ["hill station", "mountains", "snow", "adventure", "trekking", "nature", "honeymoon"],
+      "transport": {
+        "flight": "Bhuntar Airport / Kullu (KUU) (50 km away)",
+        "bus": "Overnight luxury Volvo coaches from Delhi / Chandigarh",
+        "local": "Local private taxis, 4x4 mountain jeeps, rented bikes"
+      },
+      "foods": ["Himachali Siddu with Pure Ghee", "Fresh Trout Fish Fry", "Tibetan Thukpa & Steamed Momos", "Warm Apple Pie at Old Manali Cafes"],
+      "famous_foods_details": [
+        {
+          "name": "Himachali Siddu",
+          "description": "Steamed fermented wheat bun stuffed with crushed walnuts, poppy seeds, and dipped in melting desi ghee.",
+          "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=600&q=80",
+          "famous_spot": "Local dhabas in Old Manali & Mall Road"
+        },
+        {
+          "name": "Fresh Himalayan River Trout",
+          "description": "Freshly caught Beas river trout pan-fried with lemon butter, garlic herbs, and potato wedges.",
+          "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=600&q=80",
+          "famous_spot": "Johnson's Cafe & Bar / Cafe 1947"
+        },
+        {
+          "name": "Steamed Momos & Thukpa",
+          "description": "Juicy dumplings served with hot fire-red chili chutney and hearty Tibetan noodle soup.",
+          "image": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=600&q=80",
+          "famous_spot": "Tibet Kitchen / Chopsticks on Mall Road"
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Solang Valley",
+          "type": "Snow & High-Adrenaline Sports",
+          "description": "Thrilling valley for paragliding, ropeway cable car, zorbing, skiing, and ATV quad rides.",
+          "image": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=600&q=80",
+          "best_time": "Morning (9:00 AM to 2:00 PM)"
+        },
+        {
+          "name": "Atal Tunnel & Sissu (Lahaul)",
+          "type": "Engineering Wonder & Alpine Valley",
+          "description": "Drive through the 9.02 km tunnel under Rohtang Pass into dramatic glacial landscapes of Lahaul.",
+          "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80",
+          "best_time": "Daytime Excursion"
+        },
+        {
+          "name": "Hadimba Temple",
+          "type": "Ancient Deodar Wooden Pagoda",
+          "description": "16th-century four-tier wooden pagoda temple nestled among towering cedar forests.",
+          "image": "https://images.unsplash.com/photo-1586861635167-e5223aadc9fe?auto=format&fit=crop&w=600&q=80",
+          "best_time": "Morning"
+        },
+        {
+          "name": "Old Manali Village & Cafes",
+          "type": "Bohemian Vibe & Live Music",
+          "description": "Cobbled pathways lined with wooden cottages, bakeries, live acoustic music, and riverside seating.",
+          "image": "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&w=600&q=80",
+          "best_time": "Late Afternoon to Evening"
+        }
+      ],
+      "places_around": [
+        {"name": "Kasol & Parvati Valley", "distance": "75 km", "desc": "Hippie haven with pine trails, cafes and Kheerganga hot springs"},
+        {"name": "Naggar Castle", "distance": "21 km", "desc": "Medieval wood-and-stone castle overlooking the Beas valley"},
+        {"name": "Rohtang Pass", "distance": "51 km", "desc": "High mountain pass at 13,058 ft with eternal snow and glaciers"}
+      ],
+      "itinerary_templates": {
+        "day_1": {
+          "title": "Pine Woods, Temples & Old Manali Vibe",
+          "morning": "Visit 16th-century wooden Hadimba Temple surrounded by deodar forest.",
+          "afternoon": "Walk across to Old Manali village; lunch at riverside cafes with trout or pizza.",
+          "evening": "Soak your feet in Vashisht natural hot springs; evening stroll on Mall Road.",
+          "budget_est": 2500
+        },
+        "day_2": {
+          "title": "Solang Valley High Adrenaline Adventure",
+          "morning": "Solang Valley thrill: Paragliding, ropeway cable car, and ATV quad bike rides.",
+          "afternoon": "Drive through engineering marvel Atal Tunnel into snowy Sissu valley in Lahaul.",
+          "evening": "Return for warm Siddu dinner with bonfire and acoustic guitar music.",
+          "budget_est": 4200
+        }
+      }
+    },
+    {
+      "id": "paris",
+      "name": "Paris",
+      "region": "Île-de-France, France",
+      "category": "Romance, Art & Architecture",
+      "tagline": "The City of Light, Haute Couture, World-Class Museums and Fine Dining",
+      "best_season": "April to October (Pleasant spring blossoms & warm autumn)",
+      "hero_image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+      "min_budget_per_day": 8000,
+      "avg_budget_3day": 35000,
+      "avg_budget_4day": 48000,
+      "tags": ["romance", "art", "museums", "eiffel tower", "culture", "fashion", "food"],
+      "transport": {
+        "flight": "Charles de Gaulle (CDG) or Orly (ORY)",
+        "train": "Gare du Nord / Eurostar",
+        "local": "Paris Métro, RER trains, Velib bike rentals, Seine river shuttles"
+      },
+      "foods": ["Butter Croissants & Pain au Chocolat", "French Onion Soup", "Steak Frites", "Macarons from Ladurée", "Crepes & Wine"],
+      "famous_foods_details": [
+        {
+          "name": "Artisanal Butter Croissant",
+          "description": "Flaky, golden-crisp pastry with layered honeycomb interior that melts with cultured butter aroma.",
+          "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=600&q=80",
+          "famous_spot": "Du Pain et des Idées / Stohrer (oldest bakery)"
+        },
+        {
+          "name": "French Macarons",
+          "description": "Delicate almond meringue confection shells sandwiched with ganache, buttercream or fruit jam.",
+          "image": "https://images.unsplash.com/photo-1569864358642-9d1684040f43?auto=format&fit=crop&w=600&q=80",
+          "famous_spot": "Ladurée on Champs-Élysées / Pierre Hermé"
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Eiffel Tower",
+          "type": "World's Most Famous Landmark",
+          "description": "Iron lattice tower on the Champ de Mars with panoramic restaurants and summit viewing platforms.",
+          "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+          "best_time": "Sunset & Hourly Sparkle Illumination"
+        },
+        {
+          "name": "Louvre Museum",
+          "type": "Premier World Art Museum",
+          "description": "Historic royal palace and glass pyramid home to the Mona Lisa and Venus de Milo.",
+          "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80",
+          "best_time": "Morning (Advance reservation needed)"
+        },
+        {
+          "name": "Montmartre & Sacré-Cœur",
+          "type": "Bohemian Artists Hill",
+          "description": "Charming hilltop village of cobblestone streets, portrait artists, and the white dome of Sacré-Cœur.",
+          "image": "https://images.unsplash.com/photo-1509356843151-3e7d96241e11?auto=format&fit=crop&w=600&q=80",
+          "best_time": "Afternoon to Sunset"
+        }
+      ],
+      "places_around": [
+        {"name": "Palace of Versailles", "distance": "20 km", "desc": "Gilded royal chateau with Hall of Mirrors and musical fountains"},
+        {"name": "Disneyland Paris", "distance": "32 km", "desc": "Fairytale amusement kingdom with Disney character parades"},
+        {"name": "Giverny (Monet's Garden)", "distance": "75 km", "desc": "Claude Monet's water lily ponds and Japanese bridge"}
+      ],
+      "itinerary_templates": {
+        "day_1": {
+          "title": "Iconic Eiffel & Seine River Cruise",
+          "morning": "Climb or elevator ascent of the Eiffel Tower; photograph from Trocadéro.",
+          "afternoon": "Bistro lunch with quiche or croque monsieur; stroll down Champs-Élysées to Arc de Triomphe.",
+          "evening": "Romantic sunset Bateaux Mouches river cruise gliding past Notre-Dame.",
+          "budget_est": 12000
+        },
+        "day_2": {
+          "title": "Masterpieces of the Louvre & Montmartre",
+          "morning": "Tour the Louvre Museum to see the Mona Lisa and Winged Victory.",
+          "afternoon": "Walk through Tuileries Garden and sample macarons at Ladurée.",
+          "evening": "Funicular up to Montmartre; portrait drawing at Place du Tertre and French dinner.",
+          "budget_est": 14000
+        }
+      }
+    }
+  ]
+}

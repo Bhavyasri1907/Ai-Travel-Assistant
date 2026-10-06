@@ -1,0 +1,153 @@
+{
+  "intents": [
+    {
+      "intent": "GREETING",
+      "examples": [
+        "hlo",
+        "hlw",
+        "helo",
+        "hello",
+        "hi",
+        "hey",
+        "hey there",
+        "hi there",
+        "good morning",
+        "good evening",
+        "hey bot",
+        "hi bot can you help me",
+        "namaste",
+        "yo",
+        "sup",
+        "greetings",
+        "how are you",
+        "who are you",
+        "thanks",
+        "thank you",
+        "cool",
+        "awesome"
+      ]
+    },
+    {
+      "intent": "PLACE_INQUIRY",
+      "examples": [
+        "tell me about Hyderabad",
+        "what about Goa",
+        "tell me about Bengaluru",
+        "show me Jaipur",
+        "information about Manali",
+        "tell me about Kerala",
+        "details of Ooty",
+        "tell me about Varanasi",
+        "what about Paris",
+        "tell me about Bali",
+        "tell me about Dubai",
+        "explore Agra",
+        "tell me about Mumbai",
+        "places around Goa",
+        "famous places and food in Hyderabad",
+        "what to see in Manali",
+        "tell me about this place",
+        "show me details of Goa",
+        "famous food in Jaipur",
+        "what places are around Hyderabad",
+        "tell me about Ladakh",
+        "what about Shimla"
+      ]
+    },
+    {
+      "intent": "TRIP_PLANNING",
+      "examples": [
+        "Plan a 4-day trip to Bengaluru under ₹12,000",
+        "Plan a trip to Goa for 3 days",
+        "Create a 2-day Jaipur plan",
+        "I want to visit Hyderabad for 3 days",
+        "Make a 3-day plan for Hyderabad focused on history and local food",
+        "Can you plan a 4 day holiday in Kerala under 15000",
+        "Plan a weekend getaway to Ooty",
+        "Prepare an itinerary for Manali for 4 days",
+        "Build a travel plan for Varanasi for 3 days",
+        "I want an itinerary for Goa with adventure activities",
+        "Plan my 2 days vacation in Bengaluru",
+        "Can you create a customized itinerary for Hyderabad?",
+        "Help me plan a trip to Jaipur with my family",
+        "Plan a 3 day trip to Ooty under 10000 rupees",
+        "Create a travel schedule for 4 days in Goa",
+        "Plan a budget trip to Varanasi for 3 days",
+        "Generate a day by day itinerary for Manali trip",
+        "I need a 4 day tour plan for Bengaluru",
+        "Design a 3 day itinerary for Goa with water sports and beach",
+        "Plan a 2-day heritage tour of Jaipur",
+        "Can you plan a trip to Kerala with backwaters and tea gardens?",
+        "Schedule a 3-day Hyderabad trip including Charminar and Golconda Fort"
+      ]
+    },
+    {
+      "intent": "DESTINATION_RECOMMENDATION",
+      "examples": [
+        "Suggest a hill station for a weekend trip",
+        "Recommend a good beach destination in India",
+        "Where should I travel during winter season?",
+        "Suggest some budget friendly places to visit under 10000",
+        "Which destination is best for adventure sports and trekking?",
+        "Suggest romantic destinations for honeymoon in India",
+        "Where can I go for ancient temples and spiritual vibes?",
+        "Suggest cool places to visit in summer",
+        "Recommend me a travel spot for a 3-day weekend",
+        "Which city is best for street food and historical monuments?",
+        "Suggest some nature and tea garden destinations",
+        "Where should I travel if I love beaches and nightlife?",
+        "Can you recommend a royal heritage palace city to explore?",
+        "Give me ideas on where to go for my next holiday"
+      ]
+    },
+    {
+      "intent": "HOTEL_ATTRACTION_SEARCH",
+      "examples": [
+        "What are the top attractions in Jaipur?",
+        "Show me famous places to visit in Hyderabad",
+        "What are the best tourist spots in Bengaluru?",
+        "Top things to see in Goa",
+        "What attractions should I visit in Manali?",
+        "List the best places in Kerala Munnar and Alleppey",
+        "Attractions near Charminar and Golconda Fort",
+        "What are the must-visit places in Ooty?",
+        "Tell me about famous ghats and temples in Varanasi",
+        "Sightseeing places in Bangalore",
+        "What can I see in Amer Fort and Hawa Mahal?",
+        "Famous spots for photography in Goa"
+      ]
+    },
+    {
+      "intent": "TRANSPORT_WEATHER_BUDGET",
+      "examples": [
+        "Can I plan Goa under ₹10,000?",
+        "Can I plan a trip under 12000 rupees?",
+        "Is 15000 enough for a 3-day trip to Goa?",
+        "What is the average cost for visiting Hyderabad for 3 days?",
+        "How much budget is needed for Manali 4 day trip?",
+        "What is the best time and season to visit Manali?",
+        "When should I visit Kerala for good weather?",
+        "How can I reach Ooty by train or flight?",
+        "What are the local transportation options in Bengaluru?",
+        "Is October a good time to visit Jaipur?",
+        "How to travel from airport to city center in Hyderabad?",
+        "Flight and train connectivity to Goa"
+      ]
+    },
+    {
+      "intent": "TRAVEL_TIPS_FAQ",
+      "examples": [
+        "What food should I try in Hyderabad?",
+        "What are the famous local dishes in Bengaluru?",
+        "What Goan delicacies should I eat?",
+        "Give me some travel tips for solo travelers",
+        "What clothes should I pack for Manali snow weather?",
+        "Is street food safe to eat in Varanasi?",
+        "Tips for shopping pearls in Laad Bazaar Hyderabad",
+        "What are the must-try foods in Jaipur?",
+        "Safety precautions for water sports in Goa",
+        "General travel tips for first-time backpackers"
+      ]
+    }
+  ]
+}
